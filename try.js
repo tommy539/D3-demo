@@ -24,7 +24,7 @@ d3.json(dataset, function(mydata) {
     svg.append('svg:image')
         .attr({
           'xlink:href': 'https://www.freevector.com/uploads/vector/preview/5961/FreeVector-USA-Map.jpg',  // can also add svg file here
-          x: 0,
+          x: -50,
           y: -150,
           width: width ,
           height: height * 1.5
