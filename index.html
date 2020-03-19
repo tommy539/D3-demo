@@ -23,8 +23,8 @@
                 height: 100%;
                 margin: auto;
                 width: 960px;
-                overflow: hidden;
-            }         
+                overflow: scroll;
+            }
     </style>
         
     </head>
@@ -36,14 +36,18 @@
         
         
         <p style="color:darkslategray;font-size: 30px;font-family: fantasy;text-align: center">1. Displaying data on map</p> 
-        <p style="color:darkslategray;font-size: 15px;font-family:monospace;">Please choose the dataset below:</p>
+        <p style="color:darkslategray;font-size: 15px;font-family:monospace;">Dataset option:</p>
         
         <form action="">
           <input type="radio" name="dataset" value="data.json" onClick=statusChange(this.value) checked> data.json<br>
           <input type="radio" name="dataset" value="data-02.json"onClick=statusChange(this.value)> data-02.json<br>
         </form>
         
+        <p id='p2'></p>
         <script src='try.js' svgid = 'svg1' ></script>
-        <p>last update: 19 Mar 2020</p>
+        
+        
+        
+        <p>Produced by Tommy Lam</p>
     </body>
 </html>     
