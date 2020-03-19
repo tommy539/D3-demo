@@ -1,5 +1,6 @@
+statusChange(dataset= 'data.json')
 
-function statusChange(dataset)
+function statusChange(dataset= 'data.json')
 {
 
 svgid = "#svg1"
