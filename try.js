@@ -13,7 +13,7 @@ d3.json(dataset, function(mydata) {
    d3.select('svg').remove()
 
 
-    var svg = d3.select('body').append('svg')
+    var svg = d3.select('#p2').append('svg')
         .attr("width", width)
         .attr("height", height)
         .style("border", "1px solid")
